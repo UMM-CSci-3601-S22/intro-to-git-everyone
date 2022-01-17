@@ -7,22 +7,20 @@
 > Each semester _after creating the instance in GitHub Classroom_,
 > we need to (in the GitHub Classroom "fork"):
 >
-> - [ ] Create a team called "Everyone"
-> - [ ] Fix the URLs in the badges below so they point to that semester's
+> - [X] Create a team called "Everyone"
+> - [X] Fix the URLs in the badges below so they point to that semester's
 >     repository instead of the "starter" repo.
 > - [ ] Make sure we've added every student in the current semester
 >     to that semester's organization so they'll have permission to
 >     push to this repo.
-> - [ ] [Turn off branch protection](docs/FACULTY_BRANCH_PROTECTION_SETTINGS.md)
+> - [X] [Turn off branch protection](docs/FACULTY_BRANCH_PROTECTION_SETTINGS.md)
 >     so that students can `push`.
 > - [ ] Remove this note and the broken badge above in the fork.
->
-> We should leave these notes in the copy in the "starter"
-> repository so it's there each semester when we fork this.
 
 [![Continuous integration status](../../actions/workflows/gradle.yaml/badge.svg)](../../actions/workflows/gradle.yaml)
-[![BCH compliance](https://bettercodehub.com/edge/badge/UMM-CSci-3601/intro-to-git?branch=main)](https://bettercodehub.com/)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/UMM-CSci-3601/intro-to-git.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UMM-CSci-3601/intro-to-git/alerts/)
+[![BCH compliance](https://bettercodehub.com/edge/badge/UMM-CSci-3601-S22/intro-to-git-everyone?branch=main)](https://bettercodehub.com/)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/UMM-CSci-3601-S22/intro-to-git-everyone.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UMM-CSci-3601-S22/intro-to-git-everyone/alerts/)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/UMM-CSci-3601-S22/intro-to-git-everyone.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UMM-CSci-3601-S22/intro-to-git-everyone/context:java)
 
 - [Background](#background)
   - [Resources for learning `git` and friends](#resources-for-learning-git-and-friends)

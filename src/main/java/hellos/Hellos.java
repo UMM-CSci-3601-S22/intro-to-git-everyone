@@ -34,7 +34,7 @@ public class Hellos {
   private String conSaysHello() {
     return "Conner says 'Hey!'\n";
   }
-  
+
   private String johnSaysHello() {
     return "John says 'Hello!'\n";
   }
@@ -42,15 +42,15 @@ public class Hellos {
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
   }
-  
+
   private String maxSaysHello() {
     return "Max says 'Greetings fellow human!'\n";
   }
-  
+
   private String nicSaysHello() {
     return "Nic says 'Howdy!'\n";
   }
-  
+
   private String nikSaysHello() {
     return "Nik says 'Hey!'\n";
   }
@@ -58,9 +58,9 @@ public class Hellos {
   private String ollieSaysHello() {
     return "Ollie says 'hi!'\n";
   }
-  
+
   private String yuboSaysHello() {
     return "Yubo says 'Hello!'\n";
   }
-  
+
 }

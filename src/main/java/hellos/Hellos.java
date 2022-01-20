@@ -23,6 +23,7 @@ public class Hellos {
     builder.append(kkSaysHello());
     builder.append(maxSaysHello());
     builder.append(nicSaysHello());
+    builder.append(yuboSaysHello());
 
     return builder.toString();
   }
@@ -41,6 +42,10 @@ public class Hellos {
 
   private String maxSaysHello() {
     return "Max says 'Greetings fellow human!'\n";
+  }
+
+  private String yuboSaysHello() {
+    return "Yubo says 'Hello!'\n";
   }
 
 }

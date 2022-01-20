@@ -20,8 +20,8 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
 
-    builder.append(joshSaysHello());
     builder.append(conSaysHello());
+    builder.append(joshSaysHello());
     builder.append(kkSaysHello());
     builder.append(maxSaysHello());
     builder.append(nicSaysHello());
@@ -30,6 +30,10 @@ public class Hellos {
     builder.append(yuboSaysHello());
 
     return builder.toString();
+  }
+
+  private String conSaysHello() {
+    return "Conner says 'Hey!'\n";
   }
 
   private String joshSaysHello() {
@@ -41,10 +45,6 @@ public class Hellos {
 
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
-  }
-
-  private String conSaysHello() {
-    return "Conner says 'Hey!'\n";
   }
 
   private String maxSaysHello() {

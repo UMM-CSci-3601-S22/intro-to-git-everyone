@@ -21,10 +21,14 @@ public class Hellos {
 
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
+    builder.append(nickgSaysHello());
 
     return builder.toString();
   }
 
+  private String nickgSaysHello() {
+    return "nickG says 'Hi!'\n";
+  }
   private String nicSaysHello() {
     return "Nic says 'Howdy!'\n";
   }

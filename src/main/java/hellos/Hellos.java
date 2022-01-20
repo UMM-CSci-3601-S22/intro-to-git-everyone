@@ -22,6 +22,7 @@ public class Hellos {
     builder.append(coleSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
+    builder.append(yuboSaysHello());
 
     return builder.toString();
   }
@@ -36,6 +37,8 @@ public class Hellos {
 
   private String coleSaysHello() {
     return "Cole says 'Aloha!'\n";
+  private String yuboSaysHello() {
+    return "Yubo says 'Hello!'\n";
   }
 
 }

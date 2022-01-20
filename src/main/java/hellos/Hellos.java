@@ -19,18 +19,23 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
+    builder.append(dongtingSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
 
     return builder.toString();
   }
 
-  private String nicSaysHello() {
+  private static String nicSaysHello() {
     return "Nic says 'Howdy!'\n";
   }
 
-  private String kkSaysHello() {
+  private static String kkSaysHello() {
     return "KK says 'Hello!'\n";
+  }
+
+  private static String dongtingSaysHello() {
+    return "Dongting says 'Hello!'\n";
   }
 
 }

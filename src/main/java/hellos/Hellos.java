@@ -43,6 +43,7 @@ public class Hellos {
 
   private String coleSaysHello() {
     return "Cole says 'Aloha!'\n";
+  }
   private String yuboSaysHello() {
     return "Yubo says 'Hello!'\n";
   }

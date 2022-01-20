@@ -24,17 +24,19 @@ public class Hellos {
     builder.append(kkSaysHello());
     builder.append(maxSaysHello());
     builder.append(nicSaysHello());
+    builder.append(nickgSaysHello());
     builder.append(nikSaysHello());
     builder.append(ollieSaysHello());
     builder.append(yuboSaysHello());
-
     return builder.toString();
   }
 
+  private String nickgSaysHello() {
+    return "NickG says 'Hi!'\n";
+  }
   private String nicSaysHello() {
     return "Nic says 'Howdy!'\n";
   }
-
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
   }

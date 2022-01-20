@@ -19,8 +19,7 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-
-
+    builder.append(coleSaysHello());
     builder.append(conSaysHello());
     builder.append(kkSaysHello());
     builder.append(maxSaysHello());
@@ -54,6 +53,9 @@ public class Hellos {
     return "Nik says 'Hey!'\n";
   }
 
+  private String coleSaysHello() {
+    return "Cole says 'Aloha!'\n";
+  }
   private String yuboSaysHello() {
     return "Yubo says 'Hello!'\n";
   }

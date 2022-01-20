@@ -20,6 +20,7 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(coleSaysHello());
+    builder.append(conSaysHello());
     builder.append(kkSaysHello());
     builder.append(maxSaysHello());
     builder.append(nicSaysHello());

@@ -19,8 +19,8 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-    builder.append(dongtingSaysHello());
     builder.append(conSaysHello());
+    builder.append(dongtingSaysHello());
     builder.append(kkSaysHello());
     builder.append(maxSaysHello());
     builder.append(nicSaysHello());
@@ -31,11 +31,11 @@ public class Hellos {
     return builder.toString();
   }
 
-  private static String nicSaysHello() {
+  private String nicSaysHello() {
     return "Nic says 'Howdy!'\n";
   }
 
-  private static String kkSaysHello() {
+  private String kkSaysHello() {
     return "KK says 'Hello!'\n";
   }
 
@@ -47,17 +47,6 @@ public class Hellos {
     return "Max says 'Greetings fellow human!'\n";
   }
 
-  private String nikSaysHello() {
-    return "Nik says 'Hey!'\n";
-  }
-
-  private String yuboSaysHello() {
-    return "Yubo says 'Hello!'\n";
-  }
-
-  private String ollieSaysHello() {
-    return "Ollie says 'hi!'\n";
-  }
   private String nikSaysHello() {
     return "Nik says 'Hey!'\n";
   }

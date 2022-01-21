@@ -22,6 +22,7 @@ public class Hellos {
     builder.append(coleSaysHello());
     builder.append(conSaysHello());
     builder.append(danielSaysHello());
+    builder.append(dongtingSaysHello());
     builder.append(johnSaysHello());
     builder.append(kkSaysHello());
     builder.append(maxSaysHello());
@@ -76,4 +77,7 @@ public class Hellos {
     return "Yubo says 'Hello!'\n";
   }
 
+  private static String dongtingSaysHello() {
+    return "Dongting says 'Hello!'\n";
+  }
 }

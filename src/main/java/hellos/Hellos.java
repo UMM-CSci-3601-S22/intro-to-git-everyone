@@ -35,12 +35,9 @@ public class Hellos {
 
   private String coleSaysHello() {
     return "Cole says 'Aloha!'\n";
+  }
   private String danielSaysHello() {
     return "Daniel says 'Sup!'\n";
-  }
-
-  private String nickgSaysHello() {
-    return "NickG says 'Hi!'\n";
   }
 
   private String conSaysHello() {

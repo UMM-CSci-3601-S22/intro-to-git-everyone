@@ -20,6 +20,7 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(coleSaysHello());
+    builder.append(collinSaysHello());
     builder.append(conSaysHello());
     builder.append(danielSaysHello());
     builder.append(dongtingSaysHello());
@@ -37,6 +38,11 @@ public class Hellos {
   private String coleSaysHello() {
     return "Cole says 'Aloha!'\n";
   }
+
+  private String collinSaysHello() {
+    return "Collin says 'Howdy!'\n";
+  }
+
   private String danielSaysHello() {
     return "Daniel says 'Sup!'\n";
   }

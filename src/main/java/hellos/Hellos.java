@@ -21,7 +21,9 @@ public class Hellos {
 
     builder.append(coleSaysHello());
     builder.append(conSaysHello());
+    builder.append(danielSaysHello());
     builder.append(dongtingSaysHello());
+    builder.append(johnSaysHello());
     builder.append(kkSaysHello());
     builder.append(maxSaysHello());
     builder.append(nicSaysHello());
@@ -32,37 +34,47 @@ public class Hellos {
     return builder.toString();
   }
 
-  private String nickgSaysHello() {
-    return "NickG says 'Hi!'\n";
+  private String coleSaysHello() {
+    return "Cole says 'Aloha!'\n";
   }
-  private String nicSaysHello() {
-    return "Nic says 'Howdy!'\n";
-  }
-  private String kkSaysHello() {
-    return "KK says 'Hello!'\n";
+  private String danielSaysHello() {
+    return "Daniel says 'Sup!'\n";
   }
 
   private String conSaysHello() {
     return "Conner says 'Hey!'\n";
   }
 
+  private String johnSaysHello() {
+    return "John says 'Hello!'\n";
+  }
+
+  private String kkSaysHello() {
+    return "KK says 'Hello!'\n";
+  }
+
   private String maxSaysHello() {
     return "Max says 'Greetings fellow human!'\n";
+  }
+
+  private String nicSaysHello() {
+    return "Nic says 'Howdy!'\n";
   }
 
   private String nikSaysHello() {
     return "Nik says 'Hey!'\n";
   }
 
-  private String coleSaysHello() {
-    return "Cole says 'Aloha!'\n";
-  }
-  private String yuboSaysHello() {
-    return "Yubo says 'Hello!'\n";
+  private String nickgSaysHello() {
+    return "NickG says 'Hi!'\n";
   }
 
   private String ollieSaysHello() {
     return "Ollie says 'hi!'\n";
+  }
+
+  private String yuboSaysHello() {
+    return "Yubo says 'Hello!'\n";
   }
 
   private static String dongtingSaysHello() {

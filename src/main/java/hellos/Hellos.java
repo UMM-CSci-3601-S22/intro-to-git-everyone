@@ -21,6 +21,7 @@ public class Hellos {
 
     builder.append(coleSaysHello());
     builder.append(conSaysHello());
+    builder.append(danielSaysHello());
     builder.append(johnSaysHello());
     builder.append(kkSaysHello());
     builder.append(maxSaysHello());
@@ -34,6 +35,9 @@ public class Hellos {
 
   private String coleSaysHello() {
     return "Cole says 'Aloha!'\n";
+  }
+  private String danielSaysHello() {
+    return "Daniel says 'Sup!'\n";
   }
 
   private String conSaysHello() {

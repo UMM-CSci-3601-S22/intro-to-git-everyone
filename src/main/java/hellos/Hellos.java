@@ -50,10 +50,6 @@ public class Hellos {
     return "Collin says 'Howdy!'\n";
   }
 
-  private String conSaysHello() {
-    return "Conner says 'Hey!'\n";
-  }
-
   private String danielSaysHello() {
     return "Daniel says 'Sup!'\n";
   }
@@ -73,7 +69,7 @@ public class Hellos {
   private String joshSaysHello() {
     return "Josh says 'Hello!'\n";
   }
-    
+
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
   }

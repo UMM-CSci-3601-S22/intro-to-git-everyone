@@ -99,10 +99,6 @@ public class Hellos {
     return "Yubo says 'Hello!'\n";
   }
 
-  private String ollieSaysHello() {
-    return "Ollie says 'hi!'\n";
-  }
-
   private String zekeSaysHello() {
     return "Zeke says 'Hi!'\n";
   }
